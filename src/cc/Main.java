@@ -19,7 +19,7 @@ public class Main
 	
 	public static void main(String[] args) //throws IOException
 	{
-		/*
+		
 		Runnable r = new MyRunnable();
 		Thread t = new Thread(r);
 		
@@ -29,36 +29,9 @@ public class Main
 		
 		t.setName("T:");
 		t2.setName("T2:");
-		t.start();
-		t2.start();
-		*/
+		//t.start();
+		//t2.start();
 		
-		File file = new File("abcd.txt");
-
-		
-		try
-		{
-			file.createNewFile();
-			FileReader filerd = new FileReader("abcd.txt");
-			BufferedReader bf = new BufferedReader(filerd);
-			String rd = null;
-					
-			while( (rd = bf.readLine()) != null)
-			{
-				
-				System.out.println(rd);
-			}
-			
-			
-			
-		}
-		catch (Exception e)
-		{
-			
-		}
-		
-		
-
+		System.out.println("Hello GitHub, thank you for geving a chance");
 	}
-	
 }
