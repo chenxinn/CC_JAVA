@@ -1,5 +1,6 @@
 package cc;
 
-interface Boy {
+interface Boy
+{
 	abstract void Disp();
 }

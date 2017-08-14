@@ -1,7 +1,6 @@
 package cc;
 
-
-public interface Age 
+public interface Age
 {
-	abstract void age();	
+	abstract void age();
 }

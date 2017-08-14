@@ -1,5 +1,6 @@
 package cc;
 
-public interface Size {
+public interface Size
+{
 	abstract void shengao();
 }

@@ -1,6 +1,6 @@
 package cc;
 
-public class Father 
+public class Father
 {
 	int bb;
 }
